@@ -45,7 +45,6 @@ ReactDOM.render(
 
 **Un seul `ReactDom.render` par page.**
 
-**Avec le JSX on peut créer nos propres balise html.On peut mettre ces balise dans des variables.**
 
 Le DOM est l'outil qui permet l'affichage de la page html+js.
 
