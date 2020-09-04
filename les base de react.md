@@ -33,7 +33,19 @@ ReactDOM.render(
 
 **Une seul balise `<div></div>` par fonction**
 
-**Un seul `ReactDom.render` par page**
+```html
+ function ComposentSimpleH6(){
+        return ( 
+            <div>
+                <h6>pure compon h6</h6>
+            </div>
+        );
+    } 
+```
+
+**Un seul `ReactDom.render` par page.**
 
 **Avec le JSX on peut créer nos propres balise html.On peut mettre ces balise dans des variables.**
+
+Le DOM est l'outil qui permet l'affichage de la page html+js.
 
