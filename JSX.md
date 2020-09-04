@@ -1,6 +1,6 @@
 # JSX
 
-**Avec le JSX on peut créer nos propres balise html.On peut mettre ces balise dans des variables.**
+**Avec JSX on peut créer nos propres balises html.On peut mettre ces balises dans des variables.**
 
 ```html
  const element = <h1>Hello</h1>;
@@ -28,3 +28,4 @@
         document.getElementById("root")
     );
 ```
+![carrousel](img/carrousel.PNG)
