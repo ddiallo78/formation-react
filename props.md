@@ -13,9 +13,29 @@ function HelloWorld({label, age}){
     ReactDOM.render(
         <div>
 
-        <HelloWorld label="djibssss" age="44"/>
-        <HelloWorld label="fufu" age="44"/>
+        <HelloWorld label="djib" age="44"/>
+        <HelloWorld label="mark" age="44"/>
         </div>,
         document.getElementById("root")
     );
 ```
+**2eme methode pour passer des props avec des class**
+
+```html
+ class HelloMessage extends React.Component {
+        render() {
+            return (
+                <div>
+                    Salut {this.props.name}
+                </div>
+            );
+        }
+    }
+ReactDOM.render(
+        <div>
+            <HelloMessage name="Thierry" />,
+            <HelloMessage name="djibs" />,
+        </div>,
+        document.getElementById("root")
+    );
+``` 
