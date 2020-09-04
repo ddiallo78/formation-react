@@ -40,4 +40,10 @@ ReactDOM.render(
     );
 ``` 
 
+Quand on a plusieurs props:
+
+![props](img/props.PNG)
+
+
+
 
