@@ -1,4 +1,4 @@
-# Les base de react
+# Les bases  de react
 
 ```html
 
@@ -30,3 +30,10 @@ ReactDOM.render(
 </html>
 
 ```
+
+**Une seul balise `<div></div>` par fonction**
+
+**Un seul `ReactDom.render` par page**
+
+**Avec le JSX on peut créer nos propres balise html.On peut mettre ces balise dans des variables.**
+
